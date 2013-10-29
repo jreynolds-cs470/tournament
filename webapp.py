@@ -2,12 +2,14 @@ from flask import Flask, redirect, render_template, url_for
 
 app = Flask(__name__)
 
-
 @app.route('/')
-def test():
-	return render_template('base.html')
+def index():
+    return redirect(url_for('static', filename='base.html'))
 
-
+@app.route('/site<num>')
+def site(num):
+    # Works for /site01, /site02, /site03, etc.
+    return render_template('site{0}.html'.format(num))
 
 
 # Include a module runner to allow local testing
