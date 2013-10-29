@@ -1,0 +1,34 @@
+<html>
+<head>
+  <title>{% block title %}Jreynolds - Midterm{% endblock %}</title>
+  <link rel="stylesheet" type="text/css" href="/static/style.css" />
+</head>
+<body><div id="site">Assignment {% block sitenumber%}{% endblock %}</div>
+<hr>
+
+<div id="content">Status
+<a href="login.html">Login</a>
+</div>
+
+{% block status %}
+{% endblock %}
+
+<div id="nav"> 
+<a href="home"> HOME TEST LINK</a>
+</div>
+
+{% block plan %}
+{% endblock %}
+
+<p id="expected-completion-date">Expected Completion Date</p>
+
+{% block date %}
+{% endblock %}
+<ul>
+<li><a href='/site01'>Site 1 - OCCS Site</a></li>
+<li><a href='/site02'>Site 2 - Flask Login Site</a></li>
+<li><a href='/site03'>Site 3 - Basic Tournament Site</a></li>
+<li><a href='/test'> Test Tournament</a></li>
+</ul>
+</body>
+</html>

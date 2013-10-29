@@ -1,0 +1,57 @@
+#content{
+	display: right; padding: 15px;
+	text-align: right;
+	font-family: Georgia;
+	width:960px;
+
+}
+
+#nav{
+	display:left;padding:15px;
+	text-align: left;
+	font-family: Georgia;
+	width: 960px;
+    margin: 0 auto;
+    background-color: #E6E6DC;
+    border:solid;
+	border-color: black;
+
+}
+
+
+
+
+body{
+	display:center;padding:15px;
+	text-align: center;
+	font-family: Georgia;
+	width: 960px;
+    margin: 0 auto;
+    background-color: #E6E6DC;
+    
+
+}
+html{
+	background-color: #C0C0C0;
+}
+h3{
+	display:center;padding:15px;
+	text-align: center;
+	font-family: Georgia;
+	width: 960px;
+    margin: 0 auto;
+    background-color: #E6E6DC;
+    border:solid;
+	border-color: black;
+
+}
+
+ul{
+	display:center;padding:15px;
+	font-family: Georgia;
+	width: 960px;
+    margin: 0 auto;
+    background-color: #E6E6DC;
+    border:solid;
+	border-color: black;
+}

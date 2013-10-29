@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def test():
-	return render_template('tournament.html')
+	return render_template('base.html')
 
 
 
