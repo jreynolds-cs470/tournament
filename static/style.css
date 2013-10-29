@@ -1,4 +1,4 @@
-#content{
+#login{
 	display: right; padding: 15px;
 	text-align: right;
 	font-family: Georgia;
@@ -15,6 +15,14 @@
     background-color: #E6E6DC;
     border:solid;
 	border-color: black;
+
+}
+
+#content{
+	display: center; padding: 15px;
+	text-align: right;
+	font-family: Georgia;
+	width:960px;
 
 }
 

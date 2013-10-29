@@ -6,29 +6,31 @@
 <body><div id="site">Assignment {% block sitenumber%}{% endblock %}</div>
 <hr>
 
-<div id="content">Status
-<a href="login.html">Login</a>
+<div id="login">
+<a href="/site04">Login</a>
 </div>
 
-{% block status %}
+{% block login %}
 {% endblock %}
 
-<div id="nav"> 
-<a href="home"> HOME TEST LINK</a>
-</div>
+<div id="nav">
+<ul> 
+<li><a href="/"> Home </a></li>
+<li><a href='/site01'>Rules</a></li>
+<li><a href='/site02'>Picks</a></li>
+<li><a href='/site03'>League</a></li>
 
-{% block plan %}
-{% endblock %}
-
-<p id="expected-completion-date">Expected Completion Date</p>
-
-{% block date %}
-{% endblock %}
-<ul>
-<li><a href='/site01'>Site 1 - OCCS Site</a></li>
-<li><a href='/site02'>Site 2 - Flask Login Site</a></li>
-<li><a href='/site03'>Site 3 - Basic Tournament Site</a></li>
-<li><a href='/test'> Test Tournament</a></li>
 </ul>
+</div>
+
+{% block nav %}
+{% endblock %}
+
+<div id="content">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+{% block content %}
+{% endblock %}
+
+
 </body>
 </html>
