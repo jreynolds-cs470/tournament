@@ -1,6 +1,12 @@
 from flask import Flask, redirect, render_template, url_for
+from flask.ext.sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
+app.config['SECRET_KEY'] = 'Development Key'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite://'
+db = SQLAlchemy(app)
+
+
 
 @app.route('/')
 def index():
@@ -8,7 +14,6 @@ def index():
 
 @app.route('/site<num>')
 def site(num):
-    # Works for /site01, /site02, /site03, etc.
     return render_template('site{0}.html'.format(num))
 
 
