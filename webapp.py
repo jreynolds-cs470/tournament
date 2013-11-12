@@ -1,5 +1,5 @@
 from flask import Flask, redirect, render_template, url_for
-from flask.ext.sqlalchemy import SQLAlchemy
+
 
 # app = Flask(__name__)
 # app.config['SECRET_KEY'] = 'Development Key'
@@ -10,7 +10,7 @@ from flask.ext.sqlalchemy import SQLAlchemy
 
 @app.route('/')
 def index():
-    return render_template('base.html')
+    return render_template('templates/base.html')
 
 @app.route('/site<num>')
 def site(num):
