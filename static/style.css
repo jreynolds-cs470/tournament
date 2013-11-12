@@ -7,7 +7,7 @@
 }
 
 #nav{
-	float: left; padding: 15px;
+	float: left; 
 	text-align: left;
 	font-family: Georgia;
 	margin-right: 200px;
@@ -16,12 +16,19 @@
 }
 
 #content{
-	float: center; padding: 15px;
+	float: right; 
 	text-align: center;
 	font-family: Georgia;
-	width:200px;
+	
 
 }
 
 html{
 	background-color: #C0C0C0;
+}
+
+#title{
+	float: center;
+	font-family: Georgia;
+
+}
