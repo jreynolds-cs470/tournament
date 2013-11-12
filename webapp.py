@@ -1,10 +1,10 @@
 from flask import Flask, redirect, render_template, url_for
 from flask.ext.sqlalchemy import SQLAlchemy
 
-app = Flask(__name__)
-app.config['SECRET_KEY'] = 'Development Key'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite://'
-db = SQLAlchemy(app)
+# app = Flask(__name__)
+# app.config['SECRET_KEY'] = 'Development Key'
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite://'
+# db = SQLAlchemy(app)
 
 
 
